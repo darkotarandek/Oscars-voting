@@ -1,0 +1,65 @@
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Controls\Button.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Controls\Form.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\MainWindow.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Home.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Controls\Button.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Controls\Form.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\MainWindow.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Home.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Movies.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\End.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\tvShows.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Actresses.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Actors.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\App.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar_MarkupCompile.cache
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar_MarkupCompile.lref
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\bin\Debug\Seminar.exe.config
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\bin\Debug\Seminar.exe
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\bin\Debug\Seminar.pdb
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Movies.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\End.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\tvShows.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Actresses.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Pages\Actors.baml
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar.g.resources
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar.Properties.Resources.resources
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar.csproj.GenerateResource.Cache
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar.exe
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar.pdb
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar\Seminar\obj\Debug\Seminar.csprojResolveAssemblyReference.cache
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar - Darko Tarandek\Seminar\bin\Debug\Seminar.exe.config
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar - Darko Tarandek\Seminar\obj\Debug\Seminar.exe
+D:\My Documents\MY JOB DARKO\FESB\3.godina\6.semestar\Programiranje za Windows\Seminar\Seminar - Darko Tarandek\Seminar\obj\Debug\Seminar.pdb
+D:\Programiranje\C#\Quiz\Quiz\bin\Debug\Seminar.exe.config
+D:\Programiranje\C#\Quiz\Quiz\bin\Debug\Seminar.exe
+D:\Programiranje\C#\Quiz\Quiz\bin\Debug\Seminar.pdb
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Quiz.csprojResolveAssemblyReference.cache
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Controls\Button.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Controls\Form.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\MainWindow.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Home.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Controls\Button.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Controls\Form.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\MainWindow.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Home.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Movies.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\End.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\tvShows.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Actresses.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Actors.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\App.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Seminar_MarkupCompile.cache
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Seminar_MarkupCompile.lref
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Movies.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\End.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\tvShows.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Actresses.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Pages\Actors.baml
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Seminar.g.resources
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Seminar.Properties.Resources.resources
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Quiz.csproj.GenerateResource.Cache
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Seminar.exe
+D:\Programiranje\C#\Quiz\Quiz\obj\Debug\Seminar.pdb

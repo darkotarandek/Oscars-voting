@@ -1,0 +1,104 @@
+﻿<Page x:Class="Seminar.Actresses"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:Controls="clr-namespace:Seminar.Controls"
+      mc:Ignorable="d" d:DesignHeight="600" d:DesignWidth="500" MinHeight="200" MinWidth="200" Title="Actresses">
+    <Page.Resources>
+        <Storyboard x:Key="expandStoryboard">
+            <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1.05" Duration="0:0:0.3"/>
+            <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="1.05" Duration="0:0:0.3"/>
+        </Storyboard>
+        <Storyboard x:Key="shrinkStoryboard">
+            <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleX" To="1" Duration="0:0:0.2"/>
+            <DoubleAnimation Storyboard.TargetProperty="RenderTransform.ScaleY" To="1" Duration="0:0:0.2"/>
+        </Storyboard>
+        <Style TargetType ="{x:Type Image}">
+            <Setter Property="RenderTransform">
+                <Setter.Value>
+                    <ScaleTransform ScaleX="1" ScaleY="1"/>
+                </Setter.Value>
+            </Setter>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Trigger.EnterActions>
+                        <BeginStoryboard Storyboard="{StaticResource expandStoryboard}" />
+                    </Trigger.EnterActions>
+                    <Trigger.ExitActions>
+                        <BeginStoryboard Storyboard="{StaticResource shrinkStoryboard}" />
+                    </Trigger.ExitActions>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="Naslov">
+            <Setter Property="Control.FontFamily" Value="Times New Roman"></Setter>
+            <Setter Property="Control.Background" Value="Gold"/>
+            <Setter Property="Control.FontSize" Value="14"/>
+            <Setter Property="Control.HorizontalContentAlignment" Value="Center"/>
+        </Style>
+        <Style TargetType="{x:Type Grid}">
+            <Setter Property="Background" Value="Chocolate"/>
+        </Style>
+        <Style TargetType="{x:Type Controls:Form}">
+            <Setter Property="HorizontalContentAlignment" Value="Center"/>
+            <Setter Property="Background" Value="LightCoral"/>
+            <Setter Property="Foreground" Value="RoyalBlue"/>
+        </Style>
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="Background" Value="Red"/>
+            <Setter Property="Foreground" Value="Blue"/>
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+        <Style x:Key="Next">
+            <Setter Property="Control.Background" Value="LightGray"/>
+            <Setter Property="Control.Foreground" Value="Firebrick"/>
+            <Setter Property="Control.Cursor" Value="Hand"/>
+        </Style>
+        <Style TargetType="RadioButton">
+            <Setter Property="Cursor" Value="Hand"/>
+        </Style>
+    </Page.Resources>
+    <Grid>
+        <ScrollViewer VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="30"></RowDefinition>
+                        <RowDefinition Height="250"></RowDefinition>
+                        <RowDefinition Height="250"></RowDefinition>
+                        <RowDefinition Height="70"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="166"></ColumnDefinition>
+                        <ColumnDefinition Width="167"></ColumnDefinition>
+                        <ColumnDefinition Width="167"></ColumnDefinition>
+                    </Grid.ColumnDefinitions>
+                    <Label Style="{StaticResource Naslov}" HorizontalAlignment="Center" Content="Vote for your favourite actress" Grid.ColumnSpan="2" Margin="0,0,148,0" Width="186" Grid.Column="1"/>
+                    <Controls:Form x:Name="angelina" Content="Angelina Jolie" HorizontalAlignment="Center" Grid.Row="1" Margin="49,215,39,15" Width="78"/>
+                    <Controls:Form x:Name="lawrence" Content="Jennifer Lawrence" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="1" Margin="42,215,26,15" Width="99"/>
+                    <Controls:Form x:Name="emma" Content="Emma Stone" HorizontalAlignment="Center" Grid.Row="1" Grid.Column="2" Margin="37,215,54,15" Width="76" RenderTransformOrigin="1.174,0.35"/>
+                    <Controls:Form x:Name="aniston" Content="Jennifer Aniston" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="0" Margin="49,215,27,15" Width="90"/>
+                    <Controls:Form x:Name="mila" Content="Mila Kunis" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="1" Margin="58,215,43,15" Width="66"/>
+                    <Controls:Form x:Name="anne" Content="Anne Hathaway" HorizontalAlignment="Center" Grid.Row="2" Grid.Column="2" Margin="53,215,25,15" Width="89"/>
+                    <Image Grid.Column="0" Source="/Images/aj.jpg" Margin="0,10,0,40" Grid.Row="1"/>
+                    <Image Grid.Column="1" Source="/Images/jl.jpg" Margin="0,10,0,40" Grid.Row="1"/>
+                    <Image Grid.Column="2" Source="/Images/es.jpg" Margin="0,10,0,40" Grid.Row="1"/>
+                    <Image Grid.Column="0" Source="/Images/ja.jpg" Margin="0,10,0,40" Grid.Row="2"/>
+                    <Image Grid.Column="1" Source="/Images/mk.jpg" Margin="0,10,0,40" Grid.Row="2"/>
+                    <Image Grid.Column="2" Source="/Images/ah.jpg" Margin="0,10,0,40" Grid.Row="2"/>
+                    <RadioButton Name="AJ" HorizontalAlignment="Left" Margin="27,218,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="-1.5,0.583" Checked="AJ_Checked" Unchecked="AJ_Unchecked"/>
+                    <RadioButton Name="JL" Grid.Column="1" HorizontalAlignment="Left" Margin="25,218,0,0" Grid.Row="1" VerticalAlignment="Top" Checked="JL_Checked" Unchecked="JL_Unchecked"/>
+                    <RadioButton Name="ES" Grid.Column="2" HorizontalAlignment="Left" Margin="20,218,0,0" Grid.Row="1" VerticalAlignment="Top" Checked="ES_Checked" Unchecked="ES_Unchecked"/>
+                    <RadioButton Name="JA" Margin="27,218,0,0" Grid.Row="2" VerticalAlignment="Top" RenderTransformOrigin="0.917,-0.25" Checked="JA_Checked" Unchecked="JA_Unchecked"/>
+                    <RadioButton Name="MK" Grid.Column="1" HorizontalAlignment="Left" Margin="36,218,0,0" Grid.Row="2" VerticalAlignment="Top" Checked="MK_Checked" Unchecked="MK_Unchecked"/>
+                    <RadioButton Name="AH" Grid.Column="2" HorizontalAlignment="Left" Margin="20,218,0,0" Grid.Row="2" VerticalAlignment="Top" Checked="AH_Checked" Unchecked="AH_Unchecked"/>
+                    <Button Content="Previous" Grid.Column="1" Grid.Row="3" Height="30" Width="60" Click="Button_Click_2"></Button>
+                    <Button Style="{StaticResource Next}" Grid.Column="2" Grid.Row="3" Content="Next" Height="30" Width="60" Click="Button_Click_1"/>
+                    <ProgressBar Grid.Row="3" Height="30" Width="60" Value="60"></ProgressBar>
+                </Grid>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
